@@ -1,0 +1,9 @@
+# Arbeitsblätter Mathematik
+
+## Convert to HTML
+
+Use Atom (https://atom.io) with the enhanced Markdown preview package 
+(http://atom-packages.directory/package/markdown-preview-enhanced/).
+
+Alt-Shift-m for preview. Right-click on preview and HTML -> HTML (cdn 
+hosted) to generate the HTML.
