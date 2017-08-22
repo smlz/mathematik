@@ -14,6 +14,11 @@ Use [Atom](https://atom.io) with the enhanced [Markdown preview package](http://
 
 Use print function in browser to create a PDF file. Then the following `pdfjam` commands.
 
+Portrait 2-up
+```
+pdfjam --suffix 4up --nup 2x1 --landscape ab02.pdf '1,1,2,2' --outfile out.pdf
+```
+
 Landscape 4-up
 ```
 pdfjam --suffix 4up --nup 2x2 --frame true --landscape --scale 0.9 --delta "2cm 2cm" ab01-kettenaufgaben.pdf '1,1,1,1,2,2,2,2' --outfile out.pdf
