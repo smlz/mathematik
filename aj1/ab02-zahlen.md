@@ -38,11 +38,11 @@
   c) 12 Tausendstel
   d) 2 Trillionstel
 
-7. Runden / wesentliche (signifikante) Ziffern.
-
-8. Messerte (wahre Werte, Näherungsweret und Abweichungs)
-
-9. Textaufgaben
+7. Runde auf Tausender und auf 3 wesentliche Ziffern.
+   a) $130\,015$
+   b) $8\,417\,700$
+   c) $579.854$
+   d) $12.882\,10\overline{4}$
 
 ---
 ### Lösungen
@@ -71,7 +71,10 @@
    c) $0.012 = 1.2 \cdot 10^{-2}$
    d) $0.000\,000\,000\,000\,000\,002 = 2 \cdot 10^{-18}$
 
-
+7. a) $13\underline{0}\,000 \approx 13\underline{0}\,000$
+   b) $8\,41\underline{8}\,000 \approx 8\,4\underline{2}0\,000$
+   c) $\underline{1}\,000 \approx 5\underline{80}$
+   d) $\underline{0} \approx 12.\underline{9}$
 
 <style type="text/css">
 p {padding-bottom: 10px;}
@@ -82,7 +85,7 @@ p {padding-bottom: 10px;}
     hr {page-break-after: always;}
     div.markdown-preview { padding: 0 !important; left:0 !important; transform:translateX(0) !important;
     }
-    div.markdown-preview > h1:first-child {
+    div.markdown-preview > h2:first-child {
       margin-top:0;
     }
 }
