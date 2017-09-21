@@ -1,0 +1,5 @@
+# Rasterize PDF (for funny printers)
+
+FILE=file.pdf
+pdftoppm -r 600 $FILE > ${FILE/.pdf/.ppm}
+convert ${FILE/.pdf/.ppm} -page a4 ${FILE/.pdf/-raster.pdf}
