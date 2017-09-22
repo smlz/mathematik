@@ -10,8 +10,10 @@ Hilfsmittel: Taschenrechner <small class="points">Total: 26 Punkte</small>
 **Darstellung** <small class="points">1 Punkt</small>
 
 1. Zu welchen der Zahlenmengen $\mathbb{R}$, $\mathbb{Q}$, $\mathbb{Z}$ und $\mathbb{N}$ gehört die Zahl? <small class="points">3 Punkte</small>
-<f6>a) $~-0.1$</f6><f6>b) \[\frac{14}{7}\]</f6><f4>c) $\sqrt{2} = 1.41421... $</f4>
-<f3>d) \[\lim_{n\to\infty}\left(\sum_{x=1}^{n}\frac{1}{2^x}\right)\]</f3>e) \[e^{i\pi}\]</f3>
+   <f6>a) $~-0.1$</f6><f6>b) \[\frac{14}{7}\]</f6><f4>c) $\sqrt{2} = 1.41421... $</f4>
+   <f3>d) \[\lim_{n\to\infty}\left(\sum_{x=1}^{n}\frac{1}{2^x}\right)\]</f3>e) \[e^{i\pi}\]</f3>
+
+2. Beweise $\sin'(x)= \cos(x)$.
 
 <style>
 @media all {
