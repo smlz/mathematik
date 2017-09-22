@@ -1,8 +1,9 @@
-### Mathematikprobe<small class="tfbern">Technische Fachschule Bern</small>
+### Mathematikprobe ![logo](tfbern-logo.svg)
 
-Klasse:  INF**XX** <small class="tfbern">**XX**. **XXXX** 20**XX**</small>
+<small>INF**XX** &mdash; Ausbildungjahr **X** &mdash; **XX**. **XXX** 20**XX**</small>
+
 Zeit: 45 Minuten
-Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
+Hilfsmittel: Taschenrechner <small class="points">Total: 26 Punkte</small>
 
 <hr>
 
@@ -19,14 +20,20 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
         margin: 0 ! important;
         width: 100% !important;
     }
-    small.tfbern {
-        font-size: 12pt;
+    img[alt=logo] {
+        width: 5cm;
         float: right;
     }
-
-   h3 {
+    p {
+        margin-bottom: 5px !important;
+    }
+    img[alt=plot] {
+        margin-top: 20px;
+        width: 7.778cm;
+    }
+    h3 {
       margin-top: 0 !important;
-      margin-bottom: 10px !important;
+      margin-bottom: 5px !important;
     }
     small.points {
         display: block;
@@ -37,7 +44,7 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
     hr {
         height: 0 !important;
         border: 1px solid lightgray !important;
-        margin: 10px 0 !important;
+        margin: 5px 0 !important;
     }
     ol li f2 {
         display: inline-block;
@@ -45,7 +52,7 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
     }
     ol li f3 {
         display: inline-block;
-        width: 33.3333%;
+        width: 33.333%;
     }
     ol li f4 {
         display: inline-block;
@@ -57,7 +64,7 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
     }
     ol li f6 {
       display: inline-block;
-      width: 16.66666%;
+      width: 16.667%;
     }
     ol {
         margin: 0 0 0 0;
@@ -65,7 +72,7 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
         counter-reset: item;
     }
     ol li {
-        margin: 10px 0;
+        margin: 5px 0;
         padding-left: 0em;
         text-indent: 0em;
         list-style-type: none;
@@ -89,7 +96,9 @@ Hilfsmittel: Keine <small class="points">Total: 26 Punkte</small>
     .katex-display {
       display: inline-block;
       margin: 5px 0;
-      font-size: 11pt;
+    }
+    .katex {
+      font-size: 13.5pt;
     }
 }
 </style>
