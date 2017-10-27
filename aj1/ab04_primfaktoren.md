@@ -28,4 +28,4 @@
 
 4. <f6>a) \[\frac{7}{25}\]</f6><f6>b) \[\frac{19}{24}\]</f6><f6>c) \[\frac{1}{6}\]</f6><f4>d) \[\frac{3}{256}\]</f6>
 
-<link rel="stylesheet" href="../ab.css">
+@import "../ab-styles.md"

@@ -1,3 +1,4 @@
+<style>
 @media print {
     hr {page-break-after: always;}
 }
@@ -68,3 +69,4 @@
     font-size: 13.5pt;
   }
 }
+</style>
