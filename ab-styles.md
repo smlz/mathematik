@@ -2,6 +2,11 @@
 @media print {
     hr {page-break-after: always;}
 }
+@media screen {
+  hr {
+    margin-bottom: 1000px !important;
+  }
+}
 @media all {
   body, body > div.markdown-preview {
     padding: 0 ! important;
