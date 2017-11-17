@@ -31,4 +31,49 @@ d) Division: $:$
 e) Quadrieren: $12^{2}$
 f) Wurzel ziehen: $\sqrt{16}$
 
+---
+
+## Lösungen
+
+1. a) <f3>Präfix-Notation: $: 5~7$,</f3><f3>Infix-Notation: $5:7$</f3>
+   b) <f3>Postfix-Notation: $1~4~\cdot$,</f3><f3>Infix-Notation: $1 \cdot4$</f3>
+   c) <f3>Präfix-Notation: $+~1\cdot4~7$,</f3><f3>Postfix-Notation: $1~4~7~\cdot~+$</f3>
+
+2. a) $(~\cdot~~2~~(+~~3~~2~)~)$
+   b) $(~+~(~-~~7~~(~:~4~~7~)~)~~1~)$
+   c) $(~-~~(~:~(~-~~5~~1~)~12)~(~\cdot~~2~~{-3}~)~)$
+
+3. a) $2+3\cdot 4-4 :2$
+   $~~~~(-~~(~+~~2~~(\underline{~\cdot~~3~~4~})~)~~(~:~4~~2~)~) \to $
+   $~~~~(-~~(\underline{~+~~2~~\mathbf{12}~})~~(~:~4~~2~)~) \to $
+   $~~~~(-~~\mathbf{14}~~(\underline{~:~4~~2~})~) \to $
+   $~~~~(\underline{-~~14~~\mathbf{2}~}) \to $
+   $~~~~\mathbf{12}$
+   b) \[\frac{2\cdot3 - 1}{10:2} + (3- 2\cdot 2)\]
+   $~~~~(~+~~(~:~(~-~~(\underline{~\cdot~~2~~3~})~~1~)~~(~:~10~~2~)~)~~(-~~3~~(~\cdot~~2~~2~)~)~) \to$
+   $~~~~(~+~~(~:~(\underline{~-~~\mathbf{6}~~1~})~~(~:~10~~2~)~)~~(-~~3~~(~\cdot~~2~~2~)~)~) \to$
+   $~~~~(~+~~(~:~\mathbf{5}~~(\underline{~:~10~~2~})~)~~(-~~3~~(~\cdot~~2~~2~)~)~) \to$
+   $~~~~(~+~~(\underline{~:~5~~\mathbf{5}~})~~(-~~3~~(~\cdot~~2~~2~)~)~) \to$
+   $~~~~(~+~~\mathbf{1}~~(-~~3~~(\underline{~\cdot~~2~~2~})~)~) \to$
+   $~~~~(~+~~1~~(\underline{-~~3~~\mathbf{4}~})~) \to$
+   $~~~~(\underline{~+~~1~~\mathbf{-1}~}) \to$
+   $~~~~\mathbf{0}$
+   c) Für a) 4 Schritte, für b) 7 Schritte.
+   d) Die Rechnungen werden von innen nach aussen, und falls mehrere Möglichkeiten bestehen, von links nach rechts aufgelöst.
+
+4. Für die verwendeten Symbole gibt es keine richtige oder falsche Lösung. Die naheliegensten Varianten orientieren sich an den existierenden Programmiersprachen.
+Beispiele:
+$+$ : `+`
+$-$ : `-`
+$\cdot~~$ : `*`
+$:~~$ : `/`
+$\fbox{}^2$ : `quadrat` / `square`
+$\sqrt{\fbox{}}$: `wurzel` / `sqrt`
+
+
 @import "../ab-styles.md"
+<style>
+hr {
+  margin-bottom: 32px !important;
+}
+</style>
