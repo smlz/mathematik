@@ -6,7 +6,7 @@
 
 2. Ich kenne die Teilbarkeitsregeln für 2, 3, 4, 5, 6, 8 und 9 (alle einstelligen Zahlen ausser 7) und kann sie anwenden.
 
-3. Ich kann für eine beliebige (dreistellige) in ihre Primfaktoren zerlegen.
+3. Ich kann für eine beliebige (dreistellige) Zahl in ihre Primfaktoren zerlegen.
 
 4. Ich kann mit Hilfe der Primfaktorenzerlegung Brüche gleichnamig machen, um sie zu addieren oder subtrahieren.
 
